@@ -21,7 +21,11 @@ body {
 .social a {
   color: white;
   display: inline-block;
+  opacity: .6;
   padding: 2rem;
+}
+.social a:hover {
+  opacity: 1;
 }
 a:hover .fa-spotify {
   color: #57B65F;
