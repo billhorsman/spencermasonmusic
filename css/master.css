@@ -1,12 +1,40 @@
 body {
   background: black;
+  color: white;
+}
+.main {
+  height: 100vh;
+  padding: 2rem;
+  width: 100%;
+}
+.social {
+  position: absolute;
+  bottom: 1rem;
+  text-align: center;
+  width: 100%;
+}
+.social a {
+  color: white;
+  display: inline-block;
+  padding: 2rem;
+}
+a:hover .fa-spotify {
+  color: #57B65F;
+}
+a:hover .fa-itunes {
+  color: #E94A61;
+}
+.social svg {
+  font-size: 3rem;
+  transition: .2s all;
 }
 .album {
   background-image: url('../images/i-have-never-loved-myself.jpg');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  border: 1px solid black;
-  height: 100vh;
+  height: 100%;
+  position: relative;
+  transform: rotate(-2deg);
   width: 100%;
 }
