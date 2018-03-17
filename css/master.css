@@ -10,10 +10,6 @@ body {
   justify-content: center;
   width: 100%;
 }
-@media (max-width: 495px) {
-  .main {
-  }
-}
 .social {
   position: absolute;
   bottom: 1rem;
@@ -49,7 +45,7 @@ a:hover .fa-itunes {
   position: relative;
   transform: rotate(-2deg);
   width: 100%;
-  animation-duration: 4s;
+  animation-duration: 1s;
   animation-name: spin, spin-again;
   animation-iteration-count: 1;
   animation-direction: alternate;
@@ -57,12 +53,12 @@ a:hover .fa-itunes {
 
 @keyframes spin {
   from {
-    transform: rotate(-10deg);
-    opacity: .2;
+    opacity: 0;
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(-2deg);
     opacity: 1;
+    transform: rotate(-2deg);
   }
 }
 
